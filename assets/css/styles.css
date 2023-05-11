@@ -2,7 +2,7 @@ body {
     align-items: center;
     justify-content: center;
     display: flex;
-    background-image: url("../img/New\ Scan\ 2023-05-11\ 1454-p2.jpg");
+    background-image: url("../img/New\ Scan\ 2023-05-11\ 1454-p1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -48,16 +48,21 @@ li {
     padding-right: 30px;
     margin-left: 15px;
     border-color: black;
-    box-shadow: 8px 8px 0 0 black;
+    box-shadow: 0px 0px 0 0 black;
 }
 
 .test:hover {
     border: 5px solid black;
     border-radius: 32px;
     background-color: blueviolet;
-    color: black;
+    font-weight: bold;
     padding-right: 30px;
     margin-left: 15px;
     border-color: black;
     cursor: pointer;
+    box-shadow: 12px 12px 0 0 black;
+}
+
+.text:hover {
+    color: white;
 }
