@@ -2,12 +2,13 @@ body {
     align-items: center;
     justify-content: center;
     display: flex;
-    background-image: url("../img/wp10269233.jpg");
+    background-image: url("../img/New\ Scan\ 2023-05-11\ 1454-p2.jpg");
+
 }
 
 
 li {
-    color: white;
+    color: black;
     list-style: none;
 }
 
