@@ -3,7 +3,9 @@ body {
     justify-content: center;
     display: flex;
     background-image: url("../img/New\ Scan\ 2023-05-11\ 1454-p2.jpg");
-
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 
@@ -36,4 +38,26 @@ li {
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
     border: 1px solid rgba(255, 255, 255, 0.18);
     border-radius: 32px;
+}
+
+.test {
+    border: 5px solid black;
+    border-radius: 32px;
+    background-color: white;
+    color: black;
+    padding-right: 30px;
+    margin-left: 15px;
+    border-color: black;
+    box-shadow: 8px 8px 0 0 black;
+}
+
+.test:hover {
+    border: 5px solid black;
+    border-radius: 32px;
+    background-color: blueviolet;
+    color: black;
+    padding-right: 30px;
+    margin-left: 15px;
+    border-color: black;
+    cursor: pointer;
 }
